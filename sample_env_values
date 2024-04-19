@@ -1,0 +1,2 @@
+NODEJS_PORT=5000
+MONGODB_URI=mongodb+srv://psr1983:67Y2NyqRdSTHr0mZ@cluster0.jg6xd2k.mongodb.net/app_027?retryWrites=true&w=majority&appName=Cluster0
