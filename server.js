@@ -8,7 +8,7 @@ dotenv.config();
 const app = express();
 
 const PORT = process.env.PORT || 5000;
-const MONGODB_URI = process.env.MONGODB_URI || "mongodb+srv://psr1983:67Y2NyqRdSTHr0mZ@cluster0.jg6xd2k.mongodb.net/app_027?retryWrites=true&w=majority&appName=Cluster0"
+const MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost:27017/mern-todo-db"
 
 app.use(cors());
 app.use(express.json());
